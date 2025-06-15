@@ -70,6 +70,17 @@
         padding: 15px;
       }
     }
+
+    @media only screen and (max-width: 300px) {
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 30px;
+        max-width: 1200px;
+        margin: auto;
+      }
+    }
   </style>
 </head>
 <body>
